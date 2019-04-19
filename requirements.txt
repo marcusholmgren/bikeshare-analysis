@@ -7,7 +7,7 @@ nbconvert==5.4.1
 notebook==5.7.8
 numpy==1.16.2
 pandas==0.24.2
-regex==2019.3.12
+regex==2019.4.14
 requests==2.21.0
 seaborn==0.9.0
 tweepy==3.7.0
