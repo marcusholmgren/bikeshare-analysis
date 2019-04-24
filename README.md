@@ -6,9 +6,11 @@ This will perform data analysis on information about individual rides made in a 
 
 This project was done as part of my enrollment in [Data Analyst Nanodegree](https://udacity.com/course/data-analyst-nanodegree--nd002) program by [Udacity](https://udacity.com/)
 
-[fordgobike-analysis.ipynb](fordgobike-analysis.ipynb) is the Jupyter Notebook that contains the Data Analysis.
+[fordgobike-analysis.ipynb](fordgobike-analysis.ipynb) is the Jupyter Notebook that contains the Exploratory Data Analysis.
 
-[fordgobike-analysis.slides.html](fordgobike-analysis.slides.html) is a Slide Deck created from the finding from the Jupyter Notebook.
+[fordgobike-slide_deck.ipynb](fordgobike-slide_deck.ipynb) is the Jupyter Notebook that contains the Explanatory Data Analysis.
+
+[fordgobike-slide_deck.slides.html](fordgobike-slide_deck.slides.html) is a Slide Deck created from the finding from the explanatory data analysis.
 
 ## Dataset
 
@@ -48,10 +50,10 @@ Select the `fordgobike-analysis.ipynb` to open the data analysis notebook.
 To convert the notebook to a slide deck issue the following command:
 
 ```bash
-$ jupyter nbconvert fordgobike-analysis.ipynb --to slides --template output_toggle.tpl --post serve
+$ jupyter nbconvert fordgobike-slide_deck.ipynb --to slides --template output_toggle.tpl --post serve
 ```
 
-Expect file `fordgobike-analysis.slides.html` to be created.
+Expect file `fordgobike-slide_deck.slides.html` to be created.
 
 ### Resources used
 
