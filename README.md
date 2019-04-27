@@ -42,12 +42,12 @@ $ jupyter notebook
 ```
 
 Expect a new browser tab to open with a list of items.
-Select the `fordgobike-analysis.ipynb` to open the data analysis notebook.  
+Select the `fordgobike-analysis.ipynb` to open the data analysis notebook or `fordgobike-slide_deck.ipynb` for the explanatory data analysis notebook.  
 
 
 ### Slide Deck
 
-To convert the notebook to a slide deck issue the following command:
+To convert the explanatory data analysis notebook to a slide deck issue the following command:
 
 ```bash
 $ jupyter nbconvert fordgobike-slide_deck.ipynb --to slides --template output_toggle.tpl --post serve
