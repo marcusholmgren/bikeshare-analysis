@@ -19,17 +19,42 @@ and the analysis was performed on the files that contains data between january  
 
 ## Summary of Findings
 
+Most bike trips are shorter than 30 minutes and the most common is that it is shorter than 10 minutes.
+
 Bike rentals mostly occurs on business weekdays with peek bike trips on tuesday, wednesday, and thursdays.
-When segmenting the bike trips on user type a different pattern is revealed for customers. They have an increase rental frequency on saturdays.
-![Start weekday of bike rentals](images/weekday_bike.rentals.jpg)
+When segmenting the bike trips on user type a different pattern is revealed for casual customers. They have an increase rental frequency on weekends.
+
+There are two distinct hours during the day that have higher utilization of bikes.
+![Bike rental hour of the day](images/bike_rental_hour_of_day.jpg)
 
 ## Key Insights for Presentation
 
 Customer user type account for 14 % of bike rentals with an increase of rentals on saturdays. 
 One explanation could be that the Customer user type consist of weekend tourists visiting the San Francisco Bay area.
 
-The most common bike trips is less than 10 minutes
+### 1. How long is the typical bike trip duration?  
+
+The bike rental duration contains some extreme values. But the most common bike rental is less than 10 minutes in lenght.
 ![Bike rentals duration binned](images/bike_rental_duration.jpg)
+
+### 2. During what days of the week does bike rentals occur?  
+
+Bike rentals mostly occurs on business weekdays with peek bike trips on tuesday, wednesday, and thursdays.
+
+
+### 3. Same station start and end bike trips
+
+When looking at bike trips that start and end at the same station there is a interesting pattern that is revealed in the Customer user type.
+They have a higher number of these kind of trips than the regular Subscribers.
+I interpret this as it could be weekend tourists visiting the San Francisco Bay area and are doing more sightseeing kind of trips close to the hotel where they are staying.
+Than the commuting style usage pattern that the regular Subscribers have.
+
+### 4. Bike rental hour of the day
+
+There is a distinct pattern with two spikes of bike rentals during the day.
+One in the morning at 8 o'clock and then later in the evening at 17 o'clock.
+This is a really good fit with a commuter pattern with people using bike rentals to travel to and from work. 
+
 
 ## Running Jupyter Notebook
 
