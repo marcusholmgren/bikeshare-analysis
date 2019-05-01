@@ -6,11 +6,11 @@ This will perform data analysis on information about individual rides made in a 
 
 This project was done as part of my enrollment in [Data Analyst Nanodegree](https://udacity.com/course/data-analyst-nanodegree--nd002) program by [Udacity](https://udacity.com/)
 
-[fordgobike-analysis.ipynb](fordgobike-analysis.ipynb) is the Jupyter Notebook that contains the Exploratory Data Analysis.
+[fordgobike-analysis.ipynb](fordgobike-analysis.ipynb) is the Jupyter Notebook that contains the Exploratory Data Analysis, [html](https://marcusholmgren.github.io/bikeshare-analysis/fordgobike-analysis.html).
 
-[fordgobike-slide_deck.ipynb](fordgobike-slide_deck.ipynb) is the Jupyter Notebook that contains the Explanatory Data Analysis.
+[fordgobike-slide_deck.ipynb](fordgobike-slide_deck.ipynb) is the Jupyter Notebook that contains the Explanatory Data Analysis, [html](https://marcusholmgren.github.io/bikeshare-analysis/fordgobike-slide_deck.html).
 
-[fordgobike-slide_deck.slides.html](fordgobike-slide_deck.slides.html) is a Slide Deck created from the finding from the explanatory data analysis.
+[docs/fordgobike-slide_deck.slides.html](https://marcusholmgren.github.io/bikeshare-analysis/fordgobike-slide_deck.slides.html#/) is a Slide Deck created from the finding from the explanatory data analysis.
 
 ## Dataset
 
